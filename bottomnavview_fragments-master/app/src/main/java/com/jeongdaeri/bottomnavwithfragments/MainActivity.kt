@@ -1,4 +1,4 @@
-package kr.ac.jetpack.tutorial
+package com.jeongdaeri.bottomnavwithfragments
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
