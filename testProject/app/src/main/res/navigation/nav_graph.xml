@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="kr.ac.jetpack.showpeep.fragment_home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_find"
+            app:destination="@id/fragment_find" />
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_calendar"
+            app:destination="@id/fragment_calendar" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_calendar"
+        android:name="kr.ac.jetpack.showpeep.fragment_calendar"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_fragment_calendar_to_fragment_home"
+            app:destination="@id/fragment_home" />
+        <action
+            android:id="@+id/action_fragment_calendar_to_fragment_find"
+            app:destination="@id/fragment_find" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_find"
+        android:name="kr.ac.jetpack.showpeep.fragment_find"
+        android:label="fragment_find"
+        tools:layout="@layout/fragment_find" >
+        <action
+            android:id="@+id/action_fragment_find_to_fragment_home"
+            app:destination="@id/fragment_home" />
+        <action
+            android:id="@+id/action_fragment_find_to_fragment_calendar"
+            app:destination="@id/fragment_calendar" />
+    </fragment>
+</navigation>

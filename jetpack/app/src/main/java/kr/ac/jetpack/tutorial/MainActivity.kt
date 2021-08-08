@@ -15,14 +15,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var homeFragment: HomeFragment
     private lateinit var rankingFragment: RankingFragment
     private lateinit var profileFragment: ProfileFragment
+    private var activityMainBinding : ActivityMainBinding? = null
 
     companion object {
 
         const val TAG: String = "로그"
-
     }
-
-    private var activityMainBinding : ActivityMainBinding? = null
 
     // 메모리에 올라갔을 때
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -55,7 +53,6 @@ class MainActivity : AppCompatActivity() {
 
         when(it.itemId){
             R.id.menu_home -> {
-
                 activityMainBinding?.mainActivityTextView?.text= "홈버튼 클릭되었다!"
 
                 Log.d(TAG, "MainActivity - 홈버튼 클릭!")
