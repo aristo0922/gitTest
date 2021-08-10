@@ -3,20 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment2">
+    app:startDestination="@id/homeFragment">
 
     <fragment
-        android:id="@+id/homeFragment2"
+        android:id="@+id/homeFragment"
         android:name="kr.ac.jetpack.bottomnavigationviewwithnavigation.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/friendsFragment2"
-        android:name="kr.ac.jetpack.bottomnavigationviewwithnavigation.fragments.FriendsFragment"
+        android:id="@+id/friendsFragment"
+        android:name="kr.ac.jetpack.bottomnavigationviewwithnavigation.fragment.FriendsFragment"
         android:label="fragment_friends"
         tools:layout="@layout/fragment_friends" />
     <fragment
-        android:id="@+id/musicFragment2"
+        android:id="@+id/musicFragment"
         android:name="kr.ac.jetpack.bottomnavigationviewwithnavigation.fragments.MusicFragment"
         android:label="fragment_music"
         tools:layout="@layout/fragment_music" />

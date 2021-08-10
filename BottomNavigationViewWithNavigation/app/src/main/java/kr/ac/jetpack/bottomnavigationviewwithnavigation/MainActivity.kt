@@ -7,6 +7,7 @@ import androidx.navigation.ui.NavigationUI
 import kr.ac.jetpack.bottomnavigationviewwithnavigation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var mBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

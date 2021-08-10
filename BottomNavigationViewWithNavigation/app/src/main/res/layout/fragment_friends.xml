@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#4AB1C3"
     android:id="@+id/friendsFragment"
-    tools:context="kr.ac.jetpack.bottomnavigationviewwithnavigation.fragments.FriendsFragment">
+    tools:context="kr.ac.jetpack.bottomnavigationviewwithnavigation.fragment.FriendsFragment">
 
     <TextView
         android:id="@+id/friends_fragment_title"
