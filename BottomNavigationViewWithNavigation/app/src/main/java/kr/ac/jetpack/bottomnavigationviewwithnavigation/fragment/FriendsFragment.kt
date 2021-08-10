@@ -1,4 +1,4 @@
-package kr.ac.jetpack.bottomnavigationviewwithnavigation.fragments
+package kr.ac.jetpack.bottomnavigationviewwithnavigation.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

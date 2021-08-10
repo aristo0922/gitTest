@@ -14,7 +14,7 @@
     <item
         android:id="@+id/musicFragment"
         android:title="music"
-        android:icon="@drawable/ic_baseline_queue_music_24"
+        android:icon="@drawable/ic_music"
         />
 
 </menu>
