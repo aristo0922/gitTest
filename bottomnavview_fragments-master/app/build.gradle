@@ -23,7 +23,6 @@ android {
         }
     }
 
-    //뷰 바인딩 사용한다고 설정
     buildFeatures {
         viewBinding = true
     }

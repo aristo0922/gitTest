@@ -56,11 +56,11 @@ class HomeFragment : Fragment() {
         val binding = FragmentHomeBinding.inflate(inflater, container, false)
         fragmentHomeBinding = binding
 
-        fragmentHomeBinding?.homeFragmentBtn?.setOnClickListener{
-            Log.d(TAG, "homefragmentbtn이 눌렸다.")
+        fragmentHomeBinding?.happyPeepBtn?.setOnClickListener{
+            Log.d(TAG, "happy state btn 눌렸다.")
             count = count - 1
 
-            fragmentHomeBinding?.homeFragmentTextView?.text = "home $count"
+            fragmentHomeBinding?.hostImgView!!.src = "home $count"
         }
 
         return binding!!.root
@@ -71,6 +71,4 @@ class HomeFragment : Fragment() {
         fragmentHomeBinding = null
         super.onDestroyView()
     }
-
-
 }
