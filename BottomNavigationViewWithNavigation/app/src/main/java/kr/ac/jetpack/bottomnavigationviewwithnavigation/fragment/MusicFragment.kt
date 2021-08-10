@@ -8,12 +8,15 @@ import androidx.fragment.app.Fragment
 import kr.ac.jetpack.bottomnavigationviewwithnavigation.databinding.FragmentMusicBinding
 
 class MusicFragment : Fragment() {
-    private var mBinding : FragmentMusicBinding? =null
+
+    private var mBinding : FragmentMusicBinding? = null
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         val binding = FragmentMusicBinding.inflate(inflater, container, false)
 
         mBinding = binding
@@ -21,8 +24,9 @@ class MusicFragment : Fragment() {
         return mBinding?.root
     }
 
-    override fun onDestroy() {
+    override fun onDestroyView() {
         mBinding = null
-        super.onDestroy()
+        super.onDestroyView()
     }
+
 }

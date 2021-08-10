@@ -9,13 +9,14 @@ import kr.ac.jetpack.bottomnavigationviewwithnavigation.databinding.FragmentHome
 
 class HomeFragment : Fragment() {
 
-    private var mBinding: FragmentHomeBinding? = null
+    private var mBinding : FragmentHomeBinding? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         val binding = FragmentHomeBinding.inflate(inflater, container, false)
 
         mBinding = binding

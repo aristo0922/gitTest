@@ -9,13 +9,14 @@ import kr.ac.jetpack.bottomnavigationviewwithnavigation.databinding.FragmentFrie
 
 class FriendsFragment : Fragment() {
 
-    private var mBinding: FragmentFriendsBinding? = null
+    private var mBinding : FragmentFriendsBinding? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         val binding = FragmentFriendsBinding.inflate(inflater, container, false)
 
         mBinding = binding
