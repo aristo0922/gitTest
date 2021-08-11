@@ -1,17 +1,13 @@
 # gitTest
 
+[recyclerview](https://www.youtube.com/watch?v=SD2t75T5RdY)
+
 git add
-
 git commit -m " comments "
-
 git branch
-
 git branch *branchName*
-
 git checkout *branchName*
-
 git rebase *branchName*
-
 git merge *branchName*
 
 <h3>push</h3>
