@@ -1,7 +1,7 @@
+#[recyclerview](https://www.youtube.com/watch?v=SD2t75T5RdY)
+
+
 # gitTest
-
-[recyclerview](https://www.youtube.com/watch?v=SD2t75T5RdY)
-
 git add
 git commit -m " comments "
 git branch
