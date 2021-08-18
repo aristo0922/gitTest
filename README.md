@@ -1,17 +1,13 @@
+<h1><a href ="https://www.youtube.com/watch?v=SD2t75T5RdY">recyclerview</a></h1>
+
+
 # gitTest
-
 git add
-
 git commit -m " comments "
-
 git branch
-
 git branch *branchName*
-
 git checkout *branchName*
-
 git rebase *branchName*
-
 git merge *branchName*
 
 <h3>push</h3>
